@@ -74,6 +74,32 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participants {
+  margin-top: 10px;
+}
+
+.participant-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.participant-badge {
+  background: linear-gradient(180deg, #ffffff, #e8f0fe);
+  border: 1px solid #cfe2ff;
+  color: #0b3d91;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  box-shadow: 0 1px 0 rgba(255,255,255,0.6) inset;
+}
+
+.no-participants {
+  color: #666;
+  font-style: italic;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
